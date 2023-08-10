@@ -22,13 +22,13 @@ redirect_from:
           <h4 class="card-title">{{ asst.title }}</h4>
           <p class="card-text">{{ asst.summary }}</p>
           {% if asst.difficulty == "easier" %}
-            <small class="difficulty-tag"  style="background-color:37FD12">"Easier"</small>
+            <small class="difficulty-tag"  style="background-color:green">Easier</small>
           {% endif %}
           {% if asst.difficulty == "more difficult" %}
-            <small class="difficulty-tag"  style="background-color:FFF04D">"More Difficult"</small>
+            <small class="difficulty-tag"  style="background-color:yellow">More Difficult</small>
           {% endif %}
           {% if asst.difficulty == "most difficult" %}
-            <small class="difficulty-tag"  style="background-color:FF0000">"Most Difficult"</small>
+            <small class="difficulty-tag"  style="background-color:red">Most Difficult</small>
           {% endif %}
           {% if asst.java %}
             <small class="language-tag">Java</small>
