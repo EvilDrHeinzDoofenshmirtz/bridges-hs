@@ -172,6 +172,13 @@ footer {
   background-color: $language-background;
 }
 
+.difficulty-tag {
+  padding: 2px 8px;
+  border-radius: 1em;
+  border: 1px solid $border;
+  background-color: $background;
+}
+
 /* NOTES AND WARNINGS */
 
 .note {
