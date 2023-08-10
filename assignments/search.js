@@ -4,7 +4,7 @@
 const searchData = {
   {% for asst in site.data.assignments %}
   "{{ asst.key }}" : `
-    {{ asst.title }} {{ asst.summary }} {{ asst.description }} {{asst.difficulty}}
+    {{ asst.title }} {{ asst.summary }} {{ asst.description }} {{ asst.difficulty }}
     {% if asst.java %} java {% endif %}
     {% if asst.python %} python {% endif %}
     {% for tag in asst.tags %} {{ tag }} {% endfor %}
